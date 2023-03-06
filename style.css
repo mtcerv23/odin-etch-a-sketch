@@ -1,0 +1,19 @@
+.container {
+  width: 40vw;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  aspect-ratio: 1 / 1;
+  border-width: 1px;
+}
+
+.hovered {
+  background-color: red;
+}
